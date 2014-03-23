@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BABB69D18DEE8E3005A04B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB69C18DEE8E3005A04B8 /* Foundation.framework */; };
+		3BABB69F18DEE8E3005A04B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB69E18DEE8E3005A04B8 /* CoreGraphics.framework */; };
+		3BABB6A118DEE8E3005A04B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB6A018DEE8E3005A04B8 /* UIKit.framework */; };
+		3BABB6A318DEE8E3005A04B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB6A218DEE8E3005A04B8 /* CoreData.framework */; };
+		3BABB6A918DEE8E3005A04B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BABB6A718DEE8E3005A04B8 /* InfoPlist.strings */; };
+		3BABB6AB18DEE8E3005A04B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6AA18DEE8E3005A04B8 /* main.m */; };
+		3BABB6AF18DEE8E3005A04B8 /* SNTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6AE18DEE8E3005A04B8 /* SNTAppDelegate.m */; };
+		3BABB6B218DEE8E3005A04B8 /* Snitch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6B018DEE8E3005A04B8 /* Snitch.xcdatamodeld */; };
+		3BABB6B418DEE8E3005A04B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BABB6B318DEE8E3005A04B8 /* Images.xcassets */; };
+		3BABB6BB18DEE8E3005A04B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB6BA18DEE8E3005A04B8 /* XCTest.framework */; };
+		3BABB6BC18DEE8E3005A04B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB69C18DEE8E3005A04B8 /* Foundation.framework */; };
+		3BABB6BD18DEE8E3005A04B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB6A018DEE8E3005A04B8 /* UIKit.framework */; };
+		3BABB6BE18DEE8E3005A04B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB6A218DEE8E3005A04B8 /* CoreData.framework */; };
+		3BABB6C618DEE8E3005A04B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BABB6C418DEE8E3005A04B8 /* InfoPlist.strings */; };
+		3BABB6C818DEE8E3005A04B8 /* SnitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6C718DEE8E3005A04B8 /* SnitchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BABB6BF18DEE8E3005A04B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BABB69118DEE8E3005A04B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BABB69818DEE8E3005A04B8;
+			remoteInfo = Snitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BABB69918DEE8E3005A04B8 /* Snitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BABB69C18DEE8E3005A04B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BABB69E18DEE8E3005A04B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BABB6A018DEE8E3005A04B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BABB6A218DEE8E3005A04B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3BABB6A618DEE8E3005A04B8 /* Snitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snitch-Info.plist"; sourceTree = "<group>"; };
+		3BABB6A818DEE8E3005A04B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BABB6AA18DEE8E3005A04B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BABB6AC18DEE8E3005A04B8 /* Snitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snitch-Prefix.pch"; sourceTree = "<group>"; };
+		3BABB6AD18DEE8E3005A04B8 /* SNTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNTAppDelegate.h; sourceTree = "<group>"; };
+		3BABB6AE18DEE8E3005A04B8 /* SNTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNTAppDelegate.m; sourceTree = "<group>"; };
+		3BABB6B118DEE8E3005A04B8 /* Snitch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snitch.xcdatamodel; sourceTree = "<group>"; };
+		3BABB6B318DEE8E3005A04B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BABB6B918DEE8E3005A04B8 /* SnitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BABB6BA18DEE8E3005A04B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BABB6C318DEE8E3005A04B8 /* SnitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnitchTests-Info.plist"; sourceTree = "<group>"; };
+		3BABB6C518DEE8E3005A04B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BABB6C718DEE8E3005A04B8 /* SnitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnitchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BABB69618DEE8E3005A04B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABB69F18DEE8E3005A04B8 /* CoreGraphics.framework in Frameworks */,
+				3BABB6A318DEE8E3005A04B8 /* CoreData.framework in Frameworks */,
+				3BABB6A118DEE8E3005A04B8 /* UIKit.framework in Frameworks */,
+				3BABB69D18DEE8E3005A04B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BABB6B618DEE8E3005A04B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABB6BB18DEE8E3005A04B8 /* XCTest.framework in Frameworks */,
+				3BABB6BE18DEE8E3005A04B8 /* CoreData.framework in Frameworks */,
+				3BABB6BD18DEE8E3005A04B8 /* UIKit.framework in Frameworks */,
+				3BABB6BC18DEE8E3005A04B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BABB69018DEE8E3005A04B8 = {
+			isa = PBXGroup;
+			children = (
+				3BABB6A418DEE8E3005A04B8 /* Snitch */,
+				3BABB6C118DEE8E3005A04B8 /* SnitchTests */,
+				3BABB69B18DEE8E3005A04B8 /* Frameworks */,
+				3BABB69A18DEE8E3005A04B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BABB69A18DEE8E3005A04B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BABB69918DEE8E3005A04B8 /* Snitch.app */,
+				3BABB6B918DEE8E3005A04B8 /* SnitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BABB69B18DEE8E3005A04B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BABB69C18DEE8E3005A04B8 /* Foundation.framework */,
+				3BABB69E18DEE8E3005A04B8 /* CoreGraphics.framework */,
+				3BABB6A018DEE8E3005A04B8 /* UIKit.framework */,
+				3BABB6A218DEE8E3005A04B8 /* CoreData.framework */,
+				3BABB6BA18DEE8E3005A04B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BABB6A418DEE8E3005A04B8 /* Snitch */ = {
+			isa = PBXGroup;
+			children = (
+				3BABB6AD18DEE8E3005A04B8 /* SNTAppDelegate.h */,
+				3BABB6AE18DEE8E3005A04B8 /* SNTAppDelegate.m */,
+				3BABB6B318DEE8E3005A04B8 /* Images.xcassets */,
+				3BABB6B018DEE8E3005A04B8 /* Snitch.xcdatamodeld */,
+				3BABB6A518DEE8E3005A04B8 /* Supporting Files */,
+			);
+			path = Snitch;
+			sourceTree = "<group>";
+		};
+		3BABB6A518DEE8E3005A04B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BABB6A618DEE8E3005A04B8 /* Snitch-Info.plist */,
+				3BABB6A718DEE8E3005A04B8 /* InfoPlist.strings */,
+				3BABB6AA18DEE8E3005A04B8 /* main.m */,
+				3BABB6AC18DEE8E3005A04B8 /* Snitch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BABB6C118DEE8E3005A04B8 /* SnitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BABB6C718DEE8E3005A04B8 /* SnitchTests.m */,
+				3BABB6C218DEE8E3005A04B8 /* Supporting Files */,
+			);
+			path = SnitchTests;
+			sourceTree = "<group>";
+		};
+		3BABB6C218DEE8E3005A04B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BABB6C318DEE8E3005A04B8 /* SnitchTests-Info.plist */,
+				3BABB6C418DEE8E3005A04B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BABB69818DEE8E3005A04B8 /* Snitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BABB6CB18DEE8E3005A04B8 /* Build configuration list for PBXNativeTarget "Snitch" */;
+			buildPhases = (
+				3BABB69518DEE8E3005A04B8 /* Sources */,
+				3BABB69618DEE8E3005A04B8 /* Frameworks */,
+				3BABB69718DEE8E3005A04B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snitch;
+			productName = Snitch;
+			productReference = 3BABB69918DEE8E3005A04B8 /* Snitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BABB6B818DEE8E3005A04B8 /* SnitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BABB6CE18DEE8E3005A04B8 /* Build configuration list for PBXNativeTarget "SnitchTests" */;
+			buildPhases = (
+				3BABB6B518DEE8E3005A04B8 /* Sources */,
+				3BABB6B618DEE8E3005A04B8 /* Frameworks */,
+				3BABB6B718DEE8E3005A04B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BABB6C018DEE8E3005A04B8 /* PBXTargetDependency */,
+			);
+			name = SnitchTests;
+			productName = SnitchTests;
+			productReference = 3BABB6B918DEE8E3005A04B8 /* SnitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BABB69118DEE8E3005A04B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SNT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexander Davydov";
+				TargetAttributes = {
+					3BABB6B818DEE8E3005A04B8 = {
+						TestTargetID = 3BABB69818DEE8E3005A04B8;
+					};
+				};
+			};
+			buildConfigurationList = 3BABB69418DEE8E3005A04B8 /* Build configuration list for PBXProject "Snitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BABB69018DEE8E3005A04B8;
+			productRefGroup = 3BABB69A18DEE8E3005A04B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BABB69818DEE8E3005A04B8 /* Snitch */,
+				3BABB6B818DEE8E3005A04B8 /* SnitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BABB69718DEE8E3005A04B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABB6A918DEE8E3005A04B8 /* InfoPlist.strings in Resources */,
+				3BABB6B418DEE8E3005A04B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BABB6B718DEE8E3005A04B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABB6C618DEE8E3005A04B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BABB69518DEE8E3005A04B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABB6AF18DEE8E3005A04B8 /* SNTAppDelegate.m in Sources */,
+				3BABB6B218DEE8E3005A04B8 /* Snitch.xcdatamodeld in Sources */,
+				3BABB6AB18DEE8E3005A04B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BABB6B518DEE8E3005A04B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABB6C818DEE8E3005A04B8 /* SnitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BABB6C018DEE8E3005A04B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BABB69818DEE8E3005A04B8 /* Snitch */;
+			targetProxy = 3BABB6BF18DEE8E3005A04B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BABB6A718DEE8E3005A04B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BABB6A818DEE8E3005A04B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BABB6C418DEE8E3005A04B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BABB6C518DEE8E3005A04B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BABB6C918DEE8E3005A04B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BABB6CA18DEE8E3005A04B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BABB6CC18DEE8E3005A04B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snitch/Snitch-Prefix.pch";
+				INFOPLIST_FILE = "Snitch/Snitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BABB6CD18DEE8E3005A04B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snitch/Snitch-Prefix.pch";
+				INFOPLIST_FILE = "Snitch/Snitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BABB6CF18DEE8E3005A04B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snitch.app/Snitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snitch/Snitch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnitchTests/SnitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BABB6D018DEE8E3005A04B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snitch.app/Snitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snitch/Snitch-Prefix.pch";
+				INFOPLIST_FILE = "SnitchTests/SnitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BABB69418DEE8E3005A04B8 /* Build configuration list for PBXProject "Snitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BABB6C918DEE8E3005A04B8 /* Debug */,
+				3BABB6CA18DEE8E3005A04B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BABB6CB18DEE8E3005A04B8 /* Build configuration list for PBXNativeTarget "Snitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BABB6CC18DEE8E3005A04B8 /* Debug */,
+				3BABB6CD18DEE8E3005A04B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BABB6CE18DEE8E3005A04B8 /* Build configuration list for PBXNativeTarget "SnitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BABB6CF18DEE8E3005A04B8 /* Debug */,
+				3BABB6D018DEE8E3005A04B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BABB6B018DEE8E3005A04B8 /* Snitch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BABB6B118DEE8E3005A04B8 /* Snitch.xcdatamodel */,
+			);
+			currentVersion = 3BABB6B118DEE8E3005A04B8 /* Snitch.xcdatamodel */;
+			path = Snitch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BABB69118DEE8E3005A04B8 /* Project object */;
+}
