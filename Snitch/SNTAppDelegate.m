@@ -7,6 +7,7 @@
 //
 
 #import "SNTAppDelegate.h"
+#import "SNTNotificationsViewController.h"
 
 @implementation SNTAppDelegate
 
@@ -18,6 +19,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    SNTNotificationsViewController *nvc = [[SNTNotificationsViewController alloc] init];
+    
+    self.window.rootViewController = nvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
