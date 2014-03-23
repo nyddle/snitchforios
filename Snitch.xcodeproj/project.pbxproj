@@ -22,6 +22,7 @@
 		3BABB6BE18DEE8E3005A04B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BABB6A218DEE8E3005A04B8 /* CoreData.framework */; };
 		3BABB6C618DEE8E3005A04B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BABB6C418DEE8E3005A04B8 /* InfoPlist.strings */; };
 		3BABB6C818DEE8E3005A04B8 /* SnitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6C718DEE8E3005A04B8 /* SnitchTests.m */; };
+		3BABB6D418DEE9CE005A04B8 /* SNTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6D318DEE9CE005A04B8 /* SNTNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3BABB6C318DEE8E3005A04B8 /* SnitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnitchTests-Info.plist"; sourceTree = "<group>"; };
 		3BABB6C518DEE8E3005A04B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BABB6C718DEE8E3005A04B8 /* SnitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnitchTests.m; sourceTree = "<group>"; };
+		3BABB6D218DEE9CE005A04B8 /* SNTNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTNotification.h; sourceTree = "<group>"; };
+		3BABB6D318DEE9CE005A04B8 /* SNTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		3BABB69018DEE8E3005A04B8 = {
 			isa = PBXGroup;
 			children = (
+				3BABB6D218DEE9CE005A04B8 /* SNTNotification.h */,
+				3BABB6D318DEE9CE005A04B8 /* SNTNotification.m */,
 				3BABB6A418DEE8E3005A04B8 /* Snitch */,
 				3BABB6C118DEE8E3005A04B8 /* SnitchTests */,
 				3BABB69B18DEE8E3005A04B8 /* Frameworks */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BABB6D418DEE9CE005A04B8 /* SNTNotification.m in Sources */,
 				3BABB6AF18DEE8E3005A04B8 /* SNTAppDelegate.m in Sources */,
 				3BABB6B218DEE8E3005A04B8 /* Snitch.xcdatamodeld in Sources */,
 				3BABB6AB18DEE8E3005A04B8 /* main.m in Sources */,
