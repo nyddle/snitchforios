@@ -24,6 +24,7 @@
 		3BABB6C818DEE8E3005A04B8 /* SnitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6C718DEE8E3005A04B8 /* SnitchTests.m */; };
 		3BABB6D418DEE9CE005A04B8 /* SNTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6D318DEE9CE005A04B8 /* SNTNotification.m */; };
 		3BABB6D718DEF81B005A04B8 /* SNTNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6D618DEF81B005A04B8 /* SNTNotificationsViewController.m */; };
+		3BABB6DA18DEFA80005A04B8 /* SNTNotificationsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BABB6D918DEFA80005A04B8 /* SNTNotificationsStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		3BABB6D318DEE9CE005A04B8 /* SNTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTNotification.m; sourceTree = "<group>"; };
 		3BABB6D518DEF81B005A04B8 /* SNTNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTNotificationsViewController.h; sourceTree = "<group>"; };
 		3BABB6D618DEF81B005A04B8 /* SNTNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTNotificationsViewController.m; sourceTree = "<group>"; };
+		3BABB6D818DEFA80005A04B8 /* SNTNotificationsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTNotificationsStore.h; sourceTree = "<group>"; };
+		3BABB6D918DEFA80005A04B8 /* SNTNotificationsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTNotificationsStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 		3BABB69018DEE8E3005A04B8 = {
 			isa = PBXGroup;
 			children = (
+				3BABB6D818DEFA80005A04B8 /* SNTNotificationsStore.h */,
+				3BABB6D918DEFA80005A04B8 /* SNTNotificationsStore.m */,
 				3BABB6D218DEE9CE005A04B8 /* SNTNotification.h */,
 				3BABB6D318DEE9CE005A04B8 /* SNTNotification.m */,
 				3BABB6A418DEE8E3005A04B8 /* Snitch */,
@@ -261,6 +266,7 @@
 			files = (
 				3BABB6D418DEE9CE005A04B8 /* SNTNotification.m in Sources */,
 				3BABB6AF18DEE8E3005A04B8 /* SNTAppDelegate.m in Sources */,
+				3BABB6DA18DEFA80005A04B8 /* SNTNotificationsStore.m in Sources */,
 				3BABB6B218DEE8E3005A04B8 /* Snitch.xcdatamodeld in Sources */,
 				3BABB6D718DEF81B005A04B8 /* SNTNotificationsViewController.m in Sources */,
 				3BABB6AB18DEE8E3005A04B8 /* main.m in Sources */,
